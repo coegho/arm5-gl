@@ -1,0 +1,110 @@
+{
+  "name": "arm5e-gl",
+  "title": "Ars Magica 5e - Compendium in Galizan",
+  "description": "All items from the core rulebook: Virtues, Flaws, Abilities, Spells,...",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.9",
+  "compatibleCoreVersion": "9",
+  "authors": [
+    {
+      "name": "coegho",
+      "email": "https://github.com/coegho"
+    }
+  ],
+  
+  "languages": [
+    {
+      "lang": "gl",
+      "name": "Galizan",
+      "path": "lang/gl.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "magi",
+      "label": "Magi",
+      "system": "arm5e",
+      "path": "packs/magi.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "companions",
+      "label": "Compañeiros",
+      "system": "arm5e",
+      "path": "packs/companions.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "grogs",
+      "label": "Grogs",
+      "system": "arm5e",
+      "path": "packs/grogs.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "spells",
+      "label": "Conxuros",
+      "system": "arm5e",
+      "path": "packs/spells.db",
+      "entity": "Item"
+    },
+    {
+      "name": "items",
+      "label": "Equipamentos",
+      "system": "arm5e",
+      "path": "packs/items.db",
+      "entity": "Item"
+    },
+    {
+      "name": "enchantments",
+      "label": "Encantamentos",
+      "system": "arm5e",
+      "path": "packs/enchantments.db",
+      "entity": "Item"
+    },
+    {
+      "name": "virtues",
+      "label": "Virtudes",
+      "system": "arm5e",
+      "path": "packs/virtues.db",
+      "entity": "Item"
+    },
+    {
+      "name": "flaws",
+      "label": "Defectos",
+      "system": "arm5e",
+      "path": "packs/flaws.db",
+      "entity": "Item"
+    },
+    {
+      "name": "abilities",
+      "label": "Habilidades",
+      "system": "arm5e",
+      "path": "packs/abilities.db",
+      "entity": "Item"
+    },
+    {
+      "name": "scenes",
+      "label": "Escenas",
+      "system": "arm5e",
+      "path": "packs/scenes.db",
+      "entity": "Scene"
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "system": "arm5e",
+      "path": "packs/macros.db",
+      "entity": "Macro"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "arm5e",
+      "type": "system"
+    }
+  ],
+  "url": "",
+  "manifest": "",
+  "download": ""
+}
